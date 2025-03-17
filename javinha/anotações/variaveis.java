@@ -17,7 +17,7 @@ public class variaveis //2
         //char --> 16bits -->representa um unico caractere, deve ser sempre aspas simples
         //String --> representa texto, deve ser sempre aspas duplas, IMUTAVEL
         //BOOLEANO
-        //boolean --> 1bit --> true or false
+        //boolean --> 8bits --> true or false
 
         //COMO FAZER UM VETOR?
         // vetor é quase uma tupla de mesmo tipo, pode ser de qualquer tipo
@@ -48,5 +48,9 @@ public class variaveis //2
         numeros.remove(Integer.valueOf(11)); //remove por 'nome'// resultado
         System.out.println(numeros.get(0)); // é o equivalente em python de: print(numeros[0]), mas como numeros em java é um objeto, deve usar o metodo.get('index')
         //vai printar 5
+        // como fazer uma constante
+        //basta usar a palavra final antes:
+        final double pi = 3.14156;
+        System.out.println(pi);
     }
 }
