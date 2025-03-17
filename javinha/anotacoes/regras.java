@@ -36,7 +36,7 @@ public class regras //1
     //} else {
     //    fazer3;
     //}
-    public static void main(String[] args)
+    public static void main(String[] args) //quando o programa é executado, SOMENTE o que tá dentro de main roda
     {
         int numero = 40;
         System.out.println(numero);
