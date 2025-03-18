@@ -1,6 +1,6 @@
 import java.util.ArrayList;
-
-class Kata {
+//OTIMO EXEMPLO PARA LISTAS E LOOPS
+class Exemplo_Passageiros {
 
   public static int countPassengers(ArrayList<int[]> stops) {
     int res =0;
