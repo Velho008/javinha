@@ -12,5 +12,6 @@ public class casting // 4
     // de string pra numero e vice-versa:
     String Entrada = "50"; // string
     int numEntrada = Integer.parseInt(Entrada); //nova variavel do tipo int
+    float floatentrada = Float.parseFloat(Entrada); //nova variavel do tipo float
     String voltaDaEntrada = String.valueOf(numEntrada); //nova variavel agr do tipo String
 }
