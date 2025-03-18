@@ -30,9 +30,11 @@ class Carro //a classe tambem representa um tipo
     //(acessivel de qualquer lugar),(acessivel dentro da mesma classe, mesmo pacote ou subclasse),(acessivel dentro da mesma classe ou pacote),(acessivel apenas dentro da mesma classe)
     //SEGUNDO vem o que ele retorna, que pode ser: um tipo primitivo, um objeto, um array, uma coleção(List,Map,Set), null ou void
     //(ver variaveis.java),(objeto definido pelo usuario),(var[]),(),(quando ele retorna um objeto),(quando não retorna nada)
+    //TERCEIRO vem o nome dele 
+    //QUARTO vem as variaveis usadas dentro dele
     public void acelerar(int sec)//por não ter return, é void
     {
         System.out.println("o carro do modelo: '"+this.modelo+"' acelerou durante "+sec+" segundos");
     }
 
-}
+} 
