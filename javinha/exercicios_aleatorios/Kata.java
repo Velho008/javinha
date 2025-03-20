@@ -1,14 +1,8 @@
-import java.util.ArrayList;
-
-class Kata {
-
-  public static int countPassengers(ArrayList<int[]> stops) {
-    int res =0;
-    for (int i = 0 ; i<stops.size() ; i++)
-    {
-        res += (stops.get(i))[0];
-        res -= ((stops.get(i)[1]));
-    }
+class Kata
+{
+  public static String binaryAddition(int a, int b)
+  {
+    String res = Integer.toBinaryString((a+b));
     return res;
   }
 }
