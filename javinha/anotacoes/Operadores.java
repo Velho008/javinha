@@ -25,7 +25,8 @@ public class Operadores//9
         // ! (não)
         System.out.println(! (5<3)); //inverte o valor de 5<3(false), tornando-o true
         System.out.println(3>5 || 8>0); //basta um ser verdadeiro
-        System.out.println(3>4 && 11<10); //os 2 tem que ser verdadeiros
+        int hmm = 0 , hm = 11;
+        System.out.println(3<4 && hmm>hm); //os 2 tem que ser verdadeiros
         // ATRIBUIÇÃO: atribui valor a uma variavel (n é algo)
         // = (meio obvil)
         // +=n (var = var + n)
