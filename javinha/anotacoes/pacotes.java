@@ -7,7 +7,7 @@ import nada_dms.*; // o .* significa que deve puxar TUDO de nada_dms
 
 //um pacote agrupa arquivos, juntando suas classes e metodos
 
-public class pacotes
+public class pacotes //6
 {
     
     public static void main(String[] args)

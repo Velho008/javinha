@@ -18,9 +18,10 @@ public class loops // 3
     
     //outro exemplo:
 
-    for (String nome : nomes){ // for each type == String in nomes
-    System.out.println(nome); //print(nome)
-    }
+        for (String nome : nomes)
+        { // for each type == String in nomes
+        System.out.println(nome); //print(nome)
+        }
 
     /* WHILELOOPS:
      vou fazer logo um exemplo pq é bem simples */
@@ -30,5 +31,11 @@ public class loops // 3
         System.out.println("while loop");
         contador++; //equivalente ao contador +=1
         }
+
+        // DO WHILE:
+        int count = 0;
+        do { //garante que vai executar pelo menos uma vez, bom pra fazer menus
+            System.out.println("sla mano " + count);
+        } while (count !=0); //primeiro executa e dps checa com o while
     }
 }

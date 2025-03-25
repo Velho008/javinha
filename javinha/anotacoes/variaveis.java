@@ -48,6 +48,7 @@ public class variaveis //2
         numeros.remove(Integer.valueOf(11)); //remove por 'nome'// resultado
         System.out.println(numeros.get(0)); // é o equivalente em python de: print(numeros[0]), mas como numeros em java é um objeto, deve usar o metodo.get('index')
         //vai printar 5
-        // adicionar set                        
+        // adicionar set   
+        // adicionar matriz                     
     }
 }

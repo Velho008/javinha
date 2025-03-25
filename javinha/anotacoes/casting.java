@@ -14,4 +14,5 @@ public class casting // 4
     int numEntrada = Integer.parseInt(Entrada); //nova variavel do tipo int
     float floatentrada = Float.parseFloat(Entrada); //nova variavel do tipo float
     String voltaDaEntrada = String.valueOf(numEntrada); //nova variavel agr do tipo String
+    //para Strings é diferente pq String é classe
 }
