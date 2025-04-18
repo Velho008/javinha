@@ -72,5 +72,106 @@ class Apartamento
  */
 /*6: Herança
 Explique o conceito de herança em OO e implemente duas classes em Java que a utilizem herança. */
-/*6R:  */
+/*6R:  
+ *     class Animal
+    {
+        String nome_cientifico;
+        String cor;
+        int idade;
+
+        void fazerSom()
+        {
+            System.out.println("SOM DE ANIMAL MTO ZIKA");
+        }
+        int calcularAreaDoRetangulo(int base, int altura)
+        {
+            System.out.println("pq vc colocou isso dentro de animal?");
+            System.out.println(" ");
+            System.out.println("pq eu pensei nesse exemplo, ai eu resolvi usar");
+            return base*altura;
+        }
+        double calcularAreaDoRetangulo(double base, double altura)
+        {
+            System.out.println("olha só a sobrecarga acontecendo diante dos seus olhos!!!!!");
+            return base*altura;
+        }
+    }
+    class Cachorro extends Animal //isso significa que ele herda as coisas de animal!
+    {
+        void fazerSom()
+        {
+            System.out.println("SOM DE CACHORRO! PQ ACONTECEU UMA SOBRESCRITA");
+        }
+    }
+*/
+
+/*7:Polimorfismo - Sobrecarga
+O que é polimorfismo em Orientação a Objetos? Dê um exemplo prático usando sobrecarga em Java. */
+/*7R: acabei por responder na 6 */
+
+/*8:Polimorfismo - Sobrescrita
+O que é sobreescrita em Orientação a Objetos? Dê um exemplo prático em Java. */
+/*8R: acabei tambem por responder na 6 */
+
+/*9: Encapsulamento
+O que é encapsulamento? Reescreva a classe Apartamento da questão 5 usando atributos privados e fornecendo métodos getters e setters. */
+/*9R: o encapsulamento serve para esconder detalhes internos e proteger dados importantes, estabelecendo um controle, tornando o programa mais seguro ao deixar atributos privados
+class Apartamento
+{
+    private int area;
+    private int quartos;
+    private int andar;
+    private int vagasDeGaragem;
+    private double valorDeCompra;
+    private boolean temVaranda;
+    
+    public int getArea()
+    {
+        return area;
+    }
+    public void setArea(int area)
+    {
+        this.area = area;
+    }
+    public int getQuartos()
+    {
+        return quartos;
+    }
+    public void setQuartos(int quartos)
+    {
+        this.quartos=quartos;
+    }
+    public int getAndar() 
+    {
+        return andar;
+    }
+    public void setAndar(int andar) 
+    {
+        this.andar = andar;
+    }
+    public int getVagasDeGaragem() 
+    {
+        return vagasDeGaragem;
+    }
+    public void setVagasDeGaragem(int vagasDeGaragem) 
+    {
+        this.vagasDeGaragem = vagasDeGaragem;
+    }
+    public double getValorDeCompra() 
+    {
+        return valorDeCompra;
+    }
+    public void setValorDeCompra(double valorDeCompra) 
+    {
+        this.valorDeCompra = valorDeCompra;
+    }
+    public boolean isTemVaranda() //eu resolvi trocar get por is, por ser booleano, pesquisei e vi que o correto é assim.
+    {
+        return temVaranda;
+    }
+    public void setTemVaranda(boolean temVaranda) 
+    {
+        this.temVaranda = temVaranda;
+    }
+} */
 }
